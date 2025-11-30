@@ -20,3 +20,5 @@
   ```bash
   conda create -n tf-rocm7 python=3.10
   conda activate tf-rocm7
+  
+Téléchargez le wheel : tensorflow-2.21.0.dev0+selfbuilt-cp310-cp310-linux_x86_64.whl
