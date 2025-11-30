@@ -18,6 +18,12 @@ sudo apt update && sudo apt install -y \
     clang lld llvm \
     python3-dev python-is-python3 \
     openjdk-17-jdk curl
+    
+# === 1.1 Installer Clang 18 depuis les dépôts LLVM officiels
+sudo apt install wget gnupg lsb-release
+wget https://apt.llvm.org/llvm.sh
+chmod +x llvm.sh
+sudo ./llvm.sh 18
 
 # === 2. Clonage TensorFlow ===
 cd ~
