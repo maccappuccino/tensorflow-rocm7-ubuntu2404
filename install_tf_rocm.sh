@@ -27,7 +27,7 @@ sudo ./llvm.sh 18
 
 # === 2. Clonage TensorFlow ===
 cd ~
-git clone https://github.com/tensorflow/tensorflow.git tensorflow-upstream
+git clone --recursive https://github.com/tensorflow/tensorflow.git tensorflow-upstream
 cd tensorflow-upstream
 git checkout $TF_VERSION
 
